@@ -1,2 +1,2 @@
-# practice-leetcode-javascript
-LeetCode JavaScript Solutions in TypeScript for Web Development Practice
+# My solutions for LeetCode JavaScript problems
+Web Development Practice: LeetCode JavaScript Solutions in TypeScript
