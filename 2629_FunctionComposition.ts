@@ -4,11 +4,9 @@ function compose(functions: F[]): F {
     return function (x) {
         if (functions.length === 0) return x;
 
-        let result = 0;
-        result = functions[functions.length - 1](x);
+        let result = functions[functions.length - 1](x);
         for (let i = functions.length - 2; i >= 0; i -= 1) {
             result = functions[i](result);
-            // console.log(result);
         }
         return result;
     }
