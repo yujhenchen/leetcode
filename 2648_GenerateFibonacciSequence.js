@@ -6,9 +6,12 @@ var fibGenerator = function* () {
   next = 1;
   while (true) {
     yield current;
-    let newNext = current + next;
-    current = next;
-    next = newNext;
+    // let newNext = current + next;
+    // current = next;
+    // next = newNext;
+
+    // swap using array destructuring
+    [current, next] = [next, current + next];
   }
 };
 
